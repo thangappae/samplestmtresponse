@@ -1,0 +1,68 @@
+{
+	"HttpCode": 200,
+	"Headers": {
+		"Content-type": "application/json"
+	},
+	"data": {
+		"status": 1,
+		"transactions": [
+			{
+				"tran_slno": 1,
+				"_comment1": "uniquekey - can use PLT function to get unique value -TBD",				
+				"uniquekey": "1X41334",
+				"instru_date": "11-08-2025",
+				"instru_no": "123124",
+				"tran_date": "11-08-2025",
+				"bank_date": "12-08-2025",
+				"_comment2": "isdebit - it can determine basis on amount availablity -TBD",
+				"isdebit": "Yes",
+				"debit_amount": 1600,
+				"credit_amount": 0,
+				"description": "Paid for misc expeenses",
+				"running_balance": 1600,
+				"cust_refid": "Ax001",
+				"cust_acctnum": "0040030012144211",
+				"transtype": "NEFT",
+				"islinkedtrans": "No"
+			},
+			{
+				"tran_slno": 2,
+				"_comment1": "uniquekey - can use PLT function to get unique value -TBD",
+				"uniquekey": "2X41336",
+				"instru_date": "11-08-2025",
+				"instru_no": "123124",
+				"tran_date": "11-08-2025",
+				"bank_date": "12-08-2025",
+				"_comment2": "isdebit - it can determine basis on amount availablity -TBD",
+				"isdebit": "Yes",
+				"debit_amount": 1600,
+				"credit_amount": 0,
+				"description": "Paid for misc expeenses",
+				"running_balance": 1600,
+				"cust_refid": "Ax001",
+				"cust_acctnum": "0040030012144211",
+				"transtype": "NEFT",
+				"islinkedtrans": "No"
+			},
+			{
+				"tran_slno": 1,
+				"_comment1": "uniquekey - can use PLT function to get unique value -TBD",
+				"uniquekey": "4X41336",
+				"instru_date": "12-08-2025",
+				"instru_no": "123124",
+				"tran_date": "12-08-2025",
+				"bank_date": "13-08-2025",
+				"_comment2": "isdebit - it can determine basis on amount availablity -TBD ",
+				"isdebit": "Yes",
+				"debit_amount": 1600,
+				"credit_amount": 0,
+				"description": "Paid for misc expeenses",
+				"running_balance": 1600,
+				"cust_refid": "Ax001",
+				"cust_acctnum": "0040030012144211",
+				"transtype": "NEFT",
+				"islinkedtrans": "No"
+			}
+		]
+	}
+}
