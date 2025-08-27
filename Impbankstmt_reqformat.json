@@ -1,0 +1,46 @@
+{
+	"HttpCode": 200,
+	"Headers": {
+		"Content-type": "application/json"
+	},
+	"data": {
+		"status": 1,
+		"headerdata": [
+			{
+				"bank_acctnum": "0040030012144211"
+			}
+		],
+		"transactions": [
+			{
+				"tran_date": "11-08-2025",
+				"instru_date": "11-08-2025",
+				"instru_no": "123124",
+				"bank_date": "12-08-2025",
+				"debit_amount": 1600,
+				"credit_amount": 0,
+				"description": "Paid for misc expeenses",
+				"running_balance": 1600
+			},
+			{
+				"tran_date": "11-08-2025",
+				"instru_date": "11-08-2025",
+				"instru_no": "123125",
+				"bank_date": "12-08-2025",
+				"debit_amount": 1000,
+				"credit_amount": 0,
+				"description": "Paid for salary expeenses",
+				"running_balance": 2600
+			},
+			{
+				"tran_date": "12-08-2025",
+				"instru_date": "12-08-2025",
+				"instru_no": "223224",
+				"bank_date": "13-08-2025",
+				"debit_amount": 0,
+				"credit_amount": 1500,
+				"description": "Received from Mr.Ram & co",
+				"running_balance": 1100
+			}
+		]
+	}
+}
