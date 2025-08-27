@@ -5,7 +5,7 @@
 	},
 	"data": {
 		"status": 1,
-		"headerdata": [
+		"basic_account_details": [
 			{
 				"bank_acctnum": "0040030012144211"
 			}
