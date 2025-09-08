@@ -1,15 +1,11 @@
 {
 	"HttpCode": 200,
 	"Headers": {
-		"Content-type": "application/json"
+		"Content-type": "application/json",
+		"status": 1,
+		"bank_acctnum": "0040030012144211"
 	},
 	"data": {
-		"status": 1,
-		"basic_account_details": [
-			{
-				"bank_acctnum": "0040030012144211"
-			}
-		],
 		"transactions": [
 			{
 				"tran_date": "11-08-2025",
