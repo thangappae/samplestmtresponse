@@ -1,11 +1,12 @@
 {
 	"HttpCode": 200,
 	"Headers": {
-		"Content-type": "application/json",
-		"status": 1,
-		"bank_acctnum": "0040030012144211"
+		"Content-type": "application/json"
 	},
-	"transactions":
+	"data": {
+		"status": 1,
+		"bank_acctnum": "0040030012144211",
+		"transactions": [
 			{
 				"tran_date": "11-08-2025",
 				"instru_date": "11-08-2025",
@@ -36,4 +37,6 @@
 				"description": "Received from Mr.Ram & co",
 				"running_balance": 1100
 			}
+		]
+	}
 }
